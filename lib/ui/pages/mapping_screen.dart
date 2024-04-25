@@ -37,7 +37,7 @@ class MappingScreen extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(
                             horizontal: 16, vertical: 8),
                         child: Text(
-                          'Indent ${item['indent']} > ${item['branch']} > Total: ${item['grand_total']}',
+                          'Indent: ${item['indent']} > Branch: ${item['branch']} > Grand Total: ${item['grand_total']}',
                           style: const TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 16,
@@ -57,7 +57,7 @@ class MappingScreen extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 32),
                         child: Text(
-                          'Indent ${item['indent']} > Posting Date: ${item['posting_date']} > Total: ${item['grand_total']}',
+                          'Indent: ${item['indent']} > Posting Date: ${item['posting_date']} > Grand Total: ${item['grand_total']}',
                           style: const TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 14,
